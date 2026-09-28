@@ -4,4 +4,4 @@
 ![Incident Management](https://img.shields.io/badge/Incident-Management-blue?style=for-the-badge)
 ![Change Management](https://img.shields.io/badge/Change-Management-orange?style=for-the-badge)
 ![Service Catalog](https://img.shields.io/badge/Service-Catalog-green?style=for-the-badge)
-![Cost](https://img.shields.io/badge/Cost-%240-brightgreen?style=for-the-badge)
+
