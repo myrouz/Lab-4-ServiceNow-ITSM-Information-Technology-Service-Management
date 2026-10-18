@@ -183,7 +183,7 @@ Build **Incident Volume by Priority — Last 30 Days** as a bar chart (Data: Inc
 
 ---
 
-## 💡 Lessons Learned
+## 💡 Key Takeaway
 
 - **Good documentation is the real product of a ticket.** Work notes show what was tried and why, and resolution notes record the fix. The activity log turns one incident into an audit trail that the next technician can learn from.
 - **Priority reflects impact and workaround, not how urgent it feels.** The Outlook incident was Priority 3 because one user was affected and webmail was available. Setting priority honestly keeps response times meaningful for the tickets that really are urgent.
