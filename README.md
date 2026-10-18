@@ -1,3 +1,4 @@
+
 # Lab-4-ServiceNow-Information-Technology-Service-Management
 
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-00C7D4?style=for-the-badge&logo=servicenow&logoColor=white)
@@ -34,7 +35,8 @@ ServiceNow addresses these challenges by providing centralized incident manageme
 
 ## 🧩 Architecture
 
----
+<img width="1024" height="533" alt="servicenow-itsm-architecture" src="https://github.com/user-attachments/assets/88fdfdc3-c878-4b48-ad3b-5df4a78215ab" />
+
 
 ## 📚 Key Concepts
 
