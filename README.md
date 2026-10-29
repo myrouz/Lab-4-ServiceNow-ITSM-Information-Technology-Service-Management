@@ -1,5 +1,5 @@
 
-# Lab-4-ServiceNow-Information-Technology-Service-Management
+# Lab 4: ServiceNow Information Technology Service Management
 
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-00C7D4?style=for-the-badge&logo=servicenow&logoColor=white)
 ![Incident Management](https://img.shields.io/badge/Incident-Management-blue?style=for-the-badge)
@@ -11,7 +11,7 @@
 
 Watch the full lab walkthrough here! 
 
-https://www.loom.com/share/9a49364d46e84af4890f325823619b21
+[Loom Video: ServiceNow ITSM Lab](https://www.loom.com/share/9a49364d46e84af4890f325823619b21)
 
 ## 📋 Overview
 
