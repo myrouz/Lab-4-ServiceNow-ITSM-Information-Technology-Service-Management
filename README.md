@@ -9,7 +9,7 @@
 
 ## 🎥 Walkthrough
 
-Watch the full lab walkthrough here! 
+Discover how IT teams streamline workflows, manage incidents, and solve technical problems using ServiceNow!
 
 [Loom Video: ServiceNow ITSM Lab](https://www.loom.com/share/9a49364d46e84af4890f325823619b21)
 
