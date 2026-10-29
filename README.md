@@ -10,19 +10,28 @@
 ## 🎥 Walkthrough
 
 Watch the full lab walkthrough here! 
+
 https://www.loom.com/share/9a49364d46e84af4890f325823619b21
 
 ## 📋 Overview
 
-This lab demonstrates how ServiceNow can be used to manage common IT service management processes. It covers creating and resolving incidents, building a service catalogue item, implementing an approval workflow for changes, and generating reports to track IT operations. The lab provides hands-on experience with ITIL-based workflows commonly used in IT support, help desk, systems administration, and enterprise IT environments.
+IT Service Management (ITSM) platforms, such as ServiceNow, serve as structured enterprise systems used to track, route, prioritize, and resolve IT requests while enforcing standardized operational processes across an organization. 
+
+This project demonstrates the deployment and configuration of an IT service management environment using a free ServiceNow Personal Developer Instance (PDI). The lab simulates a professional enterprise support environment where IT administrators manage service delivery, handle break/fix incidents, maintain infrastructure stability through change control, and streamline user self-service requests.  
+
+Implementation includes provisioning the PDI, creating and resolving IT incidents, configuring priority levels and Service Level Agreements (SLAs), assigning tickets to appropriate queues, building customized service catalog items with user variables, and implementing structured approval workflows and change management controls for infrastructure modifications.  
+
+I also leveraged ServiceNow's workflow and automation engine to manage approval routing, assignment rules, and SLA timers, while building analytical dashboard reports to track incident volume, resolution metrics, and operational performance.   
+
+The project highlights core ITIL framework and service management principles, including incident lifecycle management, problem tracking, change risk mitigation, asset configuration management, and knowledge documentation. These skills provide a practical foundation for professional IT support, help desk administration, and enterprise ITSM operations.  
 
 ---
 
 ## 🎯 Business Context
 
-Organizations need a structured way to track, prioritize, route, approve, and resolve IT work consistently. Without a centralized process, incidents can be missed, requests can be delayed, changes can be made without proper approval, and IT teams have limited visibility into operational performance.
+Organizations often struggle with fragmented IT operations where incidents slip through the cracks, requests face delays, and infrastructure changes occur without proper authorization or oversight. Without a centralized ITSM platform, IT teams lack visibility into operational performance, leading to inconsistent issue resolution and diminished accountability.  
 
-ServiceNow addresses these challenges by providing centralized incident management, service requests, change management, approvals, and reporting. These capabilities help IT teams standardize processes, improve accountability, reduce resolution times, and maintain an auditable record of IT operations.
+This lab simulates addressing these challenges by deploying an enterprise ITSM environment from the ground up using a ServiceNow Personal Developer Instance (PDI). By leveraging centralized incident tracking, structured service request catalogs, change control governance, and automated approval workflows, the platform eliminates manual bottlenecks and streamlines ticket routing. Implementing these practices empowers organizations to standardize ITIL-aligned operations, reduce resolution times, enhance cross-team visibility, and maintain a fully auditable record of IT service delivery.
 
 | Role | How this lab applies |
 |---|---|
@@ -159,33 +168,25 @@ Build **Incident Volume by Priority — Last 30 Days** as a bar chart (Data: Inc
 
 ---
 
-## 📖 Vocabulary
+## 📖 Key Terms
 
-| Term | Definition |
-|---|---|
-| **ITSM** | IT Service Management: a structured way of delivering and supporting IT services |
-| **ITIL** | A framework of best practices for ITSM. Defines incident, problem, and change processes |
-| **Ticket** | A record that tracks a request or issue from creation to closure |
-| **Workaround** | A temporary way to keep working while the real fix is in progress |
-| **Root cause** | The underlying reason an issue happened, as opposed to its symptoms |
-| **Priority** | How urgently a ticket is handled, based on impact and urgency |
-| **Assignment group** | The team responsible for working a ticket |
-| **State** | Where a ticket is in its lifecycle: New, In Progress, Resolved, Closed |
-| **Work note** | An internal comment visible to IT staff only |
-| **Resolution notes** | A record of how an incident was fixed, entered before closing |
-| **Service catalogue** | A self-service portal where users request standard IT services |
-| **Catalogue item** | A single orderable service or product in the catalogue |
-| **Variable** | A form field on a catalogue item that collects information from the requester |
-| **Fulfillment group** | The team that carries out a catalogue request |
-| **CAB** | Change Advisory Board: the group that reviews and approves changes |
-| **Normal change** | A change that goes through review and approval before it is scheduled |
-| **Standard change** | A pre-approved, low-risk, repeatable change that follows a template |
-| **Backout plan** | The steps to undo a change if it causes problems |
-| **MTTR** | Mean Time to Resolution: the average time it takes to resolve incidents |
+| Term | Definition | 
+| --- | --- | 
+| **ITSM (IT Service Management)** | A structured framework and set of policies used to design, deliver, manage, and improve how IT services are provided to end users across an organization.|
+| **ITIL (Information Technology Infrastructure Library)** |The world's most widely adopted set of best practices and standard processes for delivering high-quality IT service management.|
+| **Incident** | An unplanned interruption to an IT service or a reduction in service quality; the primary goal is to restore service as quickly as possible. |
+| **Problem** | The underlying root cause of one or more recurring incidents, aimed at identifying permanent fixes to prevent future occurrences. |
+| **Change** | A planned modification to IT infrastructure, software, or applications designed to be implemented with minimal risk and proper review. |
+| **Service Catalog** | A user-facing self-service portal where employees can browse, submit, and request standard IT services (like new hardware or software access). |
+| **Service Request** | A formal user request for something new—such as hardware, software access, or information—rather than an unplanned break/fix issue. |
+| **SLA (Service Level Agreement)** | The committed response and resolution timeframes mandated for each priority level to ensure operational accountability. | 
+| **CMDB (Configuration Management Database)** | A centralized repository and record tracking every IT asset, hardware component, and their logical relationships. |
+| **Knowledge Base** | A collection of articles documenting known issues, troubleshooting steps, and approved solutions to reduce repeat incident volumes. | Knowledge $\rightarrow$ Articles |
+| **CAB (Change Advisory Board)** | A group that review, evaluate, assess risk, and approve or reject high-impact or major planned changes to IT infrastructure. |
 
 ---
 
-## 💡 Key Takeaway
+## 💡 Lessons Learned 
 
 - **Good documentation is the real product of a ticket.** Work notes show what was tried and why, and resolution notes record the fix. The activity log turns one incident into an audit trail that the next technician can learn from.
 - **Priority reflects impact and workaround, not how urgent it feels.** The Outlook incident was Priority 3 because one user was affected and webmail was available. Setting priority honestly keeps response times meaningful for the tickets that really are urgent.
