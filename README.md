@@ -168,6 +168,26 @@ Build **Incident Volume by Priority — Last 30 Days** as a bar chart (Data: Inc
 
 ---
 
+## 🛠️  Key Skills Demonstrated
+
+**Incident management:** Created, prioritized, assigned, worked and resolved a ServiceNow incident from intake to closure, including work notes and resolution notes for an audit trail.
+
+**Priority and SLA awareness:** Set ticket priority based on impact and urgency, and understood how SLAs define response and resolution commitments.
+
+**Ticket routing:** Assigned tickets to the correct assignment group and individual to avoid wasted effort and delayed resolution.
+
+**Service catalog design:** Built a New Laptop Request catalog item with variables (mandatory fields, date picker, select box) so users can self-serve routine requests instead of calling the help desk.
+
+**Change management and approvals:** Created a change request with risk, impact, test plan and backout plan, then moved it through the approval workflow from Pending Approval to Scheduled.
+
+**Reporting and metrics:** Built dashboard reports such as incident volume by priority, mean time to resolution (MTTR) and open incidents per agent, to support staffing and operations decisions.
+
+**ITIL framework knowledge:** Applied the differences between incidents, problems, changes and service requests, and mapped each ITIL term to its ServiceNow module (aligned with ITIL 4 Foundation, CompTIA A+ and Network+).
+
+**Platform navigation and administration:** Worked in the ServiceNow admin interface and Personal Developer Instance, including the Service Desk, Change, Service Catalog and Reports modules.
+
+---
+
 ## 📖 Key Terms
 
 | Term | Definition | 
